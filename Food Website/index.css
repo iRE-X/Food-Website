@@ -1,0 +1,146 @@
+#navbar ul {
+    display: flex;
+}
+#navbar img{
+    height: 100%;
+    width: 50px;
+    margin-left: 20px;
+}
+#navbar{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+header{
+    background: url(images/apple-gbe6c36d26_1920.jpg) no-repeat center center/cover;
+}
+
+#navbar li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#navbar li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    /* box-shadow: 5px 5px rgb(74, 74, 74); */
+    border-radius: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#greeting{
+    height: 200px;
+    padding: 30px 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#greeting p{
+    width: 600px;
+}
+#greeting button{
+    width: 10%;
+    height: 15%;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    cursor: pointer;
+}
+#greeting button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+}
+
+#services{
+    background-color: white;
+    padding: 20px;
+}
+#allServices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service{
+    border: 3px solid orangered;
+    border-radius: 15px;
+    background-color:linen;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 20px black;
+}
+.service:hover{
+    box-shadow: 8px 8px 25px black, -8px -8px 25px black;
+    cursor: pointer;
+}
+.service>img{
+    width: auto;
+    height: 150px;
+}
+
+#clientSection{
+    background: url(images/sunset-g5694cd9a2_1920.jpg) no-repeat center center/cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: overlay;
+}
+.clients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}
+.clients img {
+    width: 100px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+
+
+#contactUs{
+    overflow: hidden;
+}
+
+#contactUs{
+    background: url(images/contact.jpg) no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode:overlay;
+    color: white;
+}
+#contactUs form{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px 35px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactUs form input,textarea{
+    width: 30em;
+}
+#contactUs button{
+    width: 30em;
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
