@@ -82,6 +82,7 @@ section{
     background-color:linen;
     margin: 20px;
     padding: 10px;
+    font-size: 1rem;
     text-align: center;
     box-shadow: 3px 3px 20px black;
 }
